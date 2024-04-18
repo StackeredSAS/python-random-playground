@@ -23,7 +23,7 @@ I_233 += I_233_
 # K[16] + 16
 seed_l = recover_Kj_from_Ii(I_233, I_232, I_231, 233) - 16
 # K[17] + 17
-# two possibilities for I_231
+# two possibilities for I_234
 seed_h1 = recover_Kj_from_Ii(I_234, I_233, I_232, 234) - 17
 seed_h2 = recover_Kj_from_Ii(I_234+0x80000000, I_233, I_232, 234) - 17
 
